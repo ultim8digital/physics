@@ -167,3 +167,10 @@ html:lang(ja) .closing h2,html:lang(zh) .closing h2,html:lang(ko) .closing h2{fo
 .floating-note>div{min-width:0;overflow-wrap:anywhere}
 .faq-list summary,.screen-caption{overflow-wrap:anywhere}
 .mobile-menu nav a{overflow-wrap:anywhere}
+
+/* Published1.7 learning update; source text matches the same-locale App Store release notes. */
+.release-note{margin-block:28px 0;padding:20px 24px;border:1px solid var(--line);border-radius:18px;background:var(--paper)}
+.release-note p{display:flex;align-items:baseline;gap:12px;font-size:.95rem;line-height:1.65;overflow-wrap:anywhere}
+.release-note strong{flex:none;color:var(--accent)}
+.release-note span{min-width:0}
+@media(max-width:600px){.release-note{padding:18px}.release-note p{display:block}.release-note strong{display:block;margin-block-end:6px}}
